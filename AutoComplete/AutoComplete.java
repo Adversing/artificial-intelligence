@@ -20,7 +20,7 @@ class Solution {
     trie = null;
   }
 
-  public void build(List <String> words) {
+  public void build(List<String> words) {
     trie = new Node();
     for (String word : words) {
       Node current = trie;
