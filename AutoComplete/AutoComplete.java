@@ -45,7 +45,7 @@ class Solution {
     return findWordsFromNode(current, prefix);
   }
 
-  private List <String> findWordsFromNode(Node node, String prefix) {
+  private List<String> findWordsFromNode(Node node, String prefix) {
     List<String> words = new ArrayList<>();
     if (node.isWord) words.add(prefix);
     
