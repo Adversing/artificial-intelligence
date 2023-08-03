@@ -20,9 +20,9 @@ class Solution {
     trie = null;
   }
 
-  public void build(List < String > words) {
+  public void build(List <String> words) {
     trie = new Node();
-    for (String word: words) {
+    for (String word : words) {
       Node current = trie;
       for (char c : word.toCharArray()) {
         if (!current.children.containsKey(c)) {
